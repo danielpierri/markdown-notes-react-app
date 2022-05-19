@@ -5,7 +5,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Karla', sans-serif;
+  font-family: "Karla", sans-serif;
 }
 
 button {
@@ -48,13 +48,13 @@ button:focus {
   align-items: center;
 }
 
-.sidebar--header>h3 {
+.sidebar--header > h3 {
   font-size: 1.75rem;
 }
 
 .new-note {
   cursor: pointer;
-  background-color: firebrick;
+  background-color: #b22222;
   border: none;
   color: white;
   border-radius: 3px;
@@ -128,7 +128,7 @@ button:focus {
 }
 
 .gutter.gutter-horizontal {
-  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAeCAYAAADkftS9AAAAIklEQVQoU2M4c+bMfxAGAgYYmwGrIIiDjrELjpo5aiZeMwF+yNnOs5KSvgAAAABJRU5ErkJggg==');
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAeCAYAAADkftS9AAAAIklEQVQoU2M4c+bMfxAGAgYYmwGrIIiDjrELjpo5aiZeMwF+yNnOs5KSvgAAAABJRU5ErkJggg==");
 }
 
 .gutter.gutter-horizontal:hover {
@@ -154,7 +154,7 @@ button:focus {
   background: none;
   color: black;
   border: none;
-  margin-right: .75em;
+  margin-right: 0.75em;
 }
 
 .title:hover > .delete-btn {
@@ -173,10 +173,7 @@ button:focus {
   width: 10px;
   height: 12px;
   border: 2px solid transparent;
-  box-shadow:
-    0 0 0 2px,
-    inset -2px 0 0,
-    inset 2px 0 0;
+  box-shadow: 0 0 0 2px, inset -2px 0 0, inset 2px 0 0;
   border-bottom-left-radius: 1px;
   border-bottom-right-radius: 1px;
   margin-top: 4px;
